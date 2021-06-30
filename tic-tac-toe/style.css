@@ -1,0 +1,69 @@
+html {
+    background-color: #9fa8da;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#title {
+    font-size: 2rem;
+    margin: 20px 0 20px 0;
+}
+
+.divider {
+    width: 60%;
+    height: 2px;
+    background-color: #6f79a8;
+}
+
+#game {
+    display: flex;
+    height: 60vh;
+    width: 100vw;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+table {
+    border: 0px solid white;
+    border-spacing: 5px;
+}
+
+td, tr {
+    border: 2px solid #6f79a8;
+    background-color: #d1d9ff;
+    border-radius: 20%;
+    transition-duration: 0.5s;
+    font-size: 3rem;
+    font-weight: bold;
+    text-align: center;
+    width: 90px;
+    height: 90px;
+}
+
+td:hover {
+    background-color: #6f79a8;
+    transition-duration: 0.3s;
+}
+
+input {
+    margin: 0 20px 30px 20px;
+    color: black;
+    font-size: 1.2rem;
+    border: 0px solid white;
+    background-color: rgba(0, 0, 0, 0);
+    transition-duration: 0.2s;
+}
+
+input:hover {
+    color: #49599a;
+}
+
+input:active {
+    color: #d1d9ff;
+}
