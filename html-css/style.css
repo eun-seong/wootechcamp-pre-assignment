@@ -1,0 +1,408 @@
+#container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    display: block;
+    object-fit: contain;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.layout_wrapper {
+    width: 1050px;
+    margin: 0 auto;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+#user_menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 22px;
+}
+
+#delivery {
+    height: 100%;
+}
+
+.list_menu {
+    list-style: none;
+    margin: 0;
+}
+
+.menu {
+    float: left;
+    width: auto;
+    font-size: 12px;
+    text-align: center;
+}
+
+.list_menu > .menu:before {
+    content: '|';
+    color: #ddd;
+    margin: 15px;
+}
+
+.menu:first-child::before {
+    content: '';
+}
+
+#header_logo {
+    width: 103px;
+}
+
+nav {
+    height: 55px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.nav_menu {
+    float: left;
+    width: auto;
+    font-size: 16px;
+    text-align: center;
+    margin: 0 30px;
+}
+
+#address {
+    width: 36px;
+    height: 36px;
+    background: url(https://res.kurly.com/pc/ico/2008/ico_delivery_setting_done.svg) no-repeat 50% 50%;
+    margin: 0 20px;
+}
+
+#address:hover {
+    fill: #5f0080;
+}
+
+#cart {
+    width: 36px;
+    height: 36px;
+    background: url(https://res.kurly.com/pc/service/common/2011/ico_cart.svg) no-repeat 50% 50%;
+}
+
+#cart:hover {
+    color: #5f0080;
+}
+
+#search {
+    display: flex;
+    align-items: center;
+    height: 36px;
+    width: 242px;
+    background-color: #eee;
+    border-radius: 20px;
+}
+
+#search_text {
+    width: 100%;
+    height: 100%;
+    border: 0px solid white;
+    background-color: rgba(0, 0, 0, 0);
+    padding: 0 60px 0 14px;
+    font-size: 1rem;
+}
+
+#search_button {
+    height: 30px;
+    width: 30px;
+    padding: 0 5px 0 0;
+}
+
+.bg {
+    position: absolute;
+    left: 0;
+    width: 100vw;
+    background-color: #eee;
+}
+
+.type2, .type3, .type4, .banner {
+    margin: 50px 0;
+}
+
+.type1 {
+    display: flex;
+    justify-content: center;
+}
+
+.main_type {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.bx-prev {
+    position: relative;
+    top: -170px;
+    left: -550px;
+    width: 52px;
+    height: 52px;
+    border: 0px solid white;
+    border-radius: 100px;
+    background: url(https://res.kurly.com/pc/service/main/1908/ico_prev1_x1.png) no-repeat 50% 50%;
+}
+
+.bx-next {
+    position: relative;
+    top: -222px;
+    left: 550px;
+    width: 52px;
+    height: 52px;
+    border: 0px solid white;
+    background: url(https://res.kurly.com/pc/service/main/1908/ico_next1_x1.png) no-repeat 50% 50%;
+}
+
+.bx-main {
+    list-style: none;
+    margin: 0;
+    width: 1900px;
+}
+
+.conatiner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.item_list {
+    display: flex;
+    align-items: start;
+}
+
+.type_title {
+    font-size: 1.8rem;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 79px;
+}
+
+.type2 .item {
+    width: 250px;
+    padding-left: 20px;
+}
+
+.item:first-child {
+    padding: 0px;
+}
+
+.item_img {
+    width: 100%;
+}
+
+.item_title {
+    padding: 10px 0;
+}
+
+.item_price {
+    display: flex;
+    font-weight: bolder;
+}
+
+.item_price .item_discount {
+    color: red;
+    padding-right: 5px;
+}
+
+.item_cost {
+    color: #aaa;
+    font-size: 0.9rem;
+    padding: 2px 0;
+    text-decoration: line-through;
+}
+
+.type_special {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 10px;
+}
+
+.special_title .title {
+    font-weight: 500;
+    font-size: 2rem;
+}
+
+.special_title .divider {
+    border: 1px solid #ccc;
+    width: 10px;
+    margin: 15px 0;
+}
+
+.type_special .item {
+    display: flex;
+    flex-direction: column;
+    width: 694px;
+}
+
+.type_special .title_desc {
+    color: #aaa;
+    margin: 0 0 70px 0;
+}
+
+.type_special .sub_desc {
+    color: #ccc;
+    font-size: 0.9rem; 
+    padding: 3px 0 10px 22px;
+    text-align: center;
+    background: url(https://res.kurly.com/pc/service/main/2010/ico_hook.svg) no-repeat 0 2px;
+}
+
+.type_special .item_subtitle {
+    color: #999
+}
+
+.type_special .item_price {
+    font-size: 1.2rem;
+    margin-top: 5px;
+}
+
+.type_special .item_cost {
+    font-size: 0.9rem;
+    font-weight: normal;
+    margin-left: 7px;
+}
+
+.special_sticker {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 68px;
+    height: 32px;
+    background-color: rgb(189, 118, 255);
+    color: white;
+    text-align: center;
+    font-size: 0.95rem;
+    font-weight: 500;
+}
+
+.countdown-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: -40px;
+    width: 100%;
+    height: 40px;
+    background-color: rgba(95, 0, 128, 0.6);
+}
+
+.countdown {
+    text-align: center;
+    color: white;
+    font-size: 1.15rem;
+    font-weight: bold;
+}
+
+.type3 .item {
+    width: 338px;
+    padding-left: 20px;
+}
+
+.type3 .item:first-child {
+    padding: 0px;
+}
+
+.type3 .item_img {
+    margin-bottom: 10px;
+}
+
+.type3 .item_title {
+    text-align: center;
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+
+.type3 .item_subtitle {
+    text-align: center;
+    color: #999;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 30px;
+}
+
+.footer_cc > .title {
+    font-size: 1.2rem;
+}
+
+.cc_view {
+    display: flex;   
+    margin: 10px 0;
+}
+
+.cc_view > .title, .cc_view > .button {
+    width: 140px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.9rem;
+    margin: 0 20px 0 0;
+    padding: 10px 0;
+}
+
+.cc_view > .button {
+    border: 1px solid #eee;
+    border-radius: 3px;
+}
+
+.cc_view_desc {
+    color: #999;
+}
+
+.cc_view > .title {
+    font-size: 1.7rem;
+    font-weight: bold;
+}
+
+.cc_view_comp {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 0.9rem;
+}
+
+footer .menu {
+    list-style: none;
+}
+
+.company > .company_list {
+    list-style: none;
+}
+
+.company > .description {
+    list-style: none;
+    font-size: 0.8rem;
+}
+
+.description * {
+    margin: 4px 0;
+}
+
+.c_menu {
+    float: left;
+    width: auto;
+    text-align: center;
+    margin: 0 20px 30px 0;
+    font-size: 0.9rem;
+}
