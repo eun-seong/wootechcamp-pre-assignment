@@ -7,3 +7,5 @@
 <img src="tic-tac-toe/execution.gif" width="700px">
 
 ### node.js
+<img src="nodejs/hooray.png" width="500px">
+<img src="nodejs/completed.png" width="700px">
